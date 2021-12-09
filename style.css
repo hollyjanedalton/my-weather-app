@@ -1,4 +1,83 @@
+body {
+  font-family: "Merriweather", serif;
+}
+.weather-app {
+  border: 3px solid #d9d9d9;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+}
+.form-control {
+  position: relative;
+  top: 60px;
+  left: 25px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.searchButton {
+  position: relative;
+  right: 40px;
+  top: 84px;
+  font-size: 18px;
+  line-height: 35px;
+}
+.locationButton {
+  position: relative;
+  right: 40px;
+  top: 84px;
+  font-size: 18px;
+  line-height: 35px;
+}
+.date {
+  opacity: 0.7;
+  position: relative;
+  bottom: 10px;
+  left: 17px;
+}
 h1 {
-  color: orangered;
+  position: relative;
+  bottom: 20px;
+  left: 17px;
+  font-size: 20px;
+}
+.skyNow {
+  position: relative;
+  left: 22px;
+  bottom: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  position: relative;
+  bottom: 160px;
+  left: 370px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.celsius-fahrenheit {
+  position: relative;
+  left: 430px;
+  bottom: 225px;
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+  position: relative;
+  bottom: 260px;
+  left: 480px;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.row {
+  position: relative;
+  bottom: 75px;
   text-align: center;
+  left: -35px;
+  margin: 0 auto;
 }
