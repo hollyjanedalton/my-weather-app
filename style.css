@@ -81,3 +81,8 @@ h3 {
   left: -35px;
   margin: 0 auto;
 }
+
+.open-source-link {
+  position: absolute;
+  left: 500px;
+}
