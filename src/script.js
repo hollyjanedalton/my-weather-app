@@ -38,6 +38,6 @@ function displayTemperature(response) {
 
 let apiKey = "d21c60e862cea62dbdf3c4bc5698f1d3";
 let city = "Buenos Aires";
-let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
