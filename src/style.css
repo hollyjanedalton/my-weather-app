@@ -5,10 +5,10 @@ body {
 
 h1 {
   color: #d63447;
-  font-size: 32px;
+  font-size: 37px;
   font-weight: 700;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 ul {
@@ -21,7 +21,7 @@ li {
   margin: 0;
   padding: 0;
   color: #878787;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 100px;
   line-height: 19px;
 }
@@ -48,8 +48,8 @@ li:first letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 75px;
+  width: 75px;
 }
 
 .form-control {
@@ -81,10 +81,11 @@ li:first letter {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: center;
   color: #d63447;
   font-weight: 700;
+  font-size: 18px;
 }
 
 .weather-forecast-date {
@@ -101,6 +102,21 @@ li:first letter {
   font-size: 13px;
 }
 
+.open-source {
+  font-family: "Courier New", Courier, monospace;
+  color: #f57b51;
+}
+.coded-by {
+  color: #f57b51;
+}
+.coded-by:hover {
+  color: #d63447;
+}
+
 .open-source-link {
-  text-decoration: none;
+  color: #f57b51;
+}
+
+.open-source-link:hover {
+  color: #d63447;
 }
