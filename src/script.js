@@ -47,9 +47,10 @@ function displayForecast(response) {
               
               <img src="http://openweathermap.org/img/wn/${
                 forecastDay.weather[0].icon
-              }@4x.png"
+              }@2x.png"
               alt=""
-              width="40"
+              width="60"
+              class="img-forecast"
               />
               <div class="weather-forecast-temperature">
                 <span class="weather-forecast-temperature-max">
@@ -116,4 +117,4 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("New York");
+search("London");
